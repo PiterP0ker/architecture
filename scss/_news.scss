@@ -1,0 +1,45 @@
+.ba-news-title {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.ba-slider-card {
+	background: #fff;
+	width: 33%;
+	&+& {
+		margin-left: 30px;
+	}
+	
+	img {
+		width: 100%;
+	}
+}
+.ba-card-title {
+color: $primary-color;
+font-family: $body-font-family;
+font-size: 22px;
+font-weight: 700;
+line-height: 34px;
+text-transform: uppercase;
+}
+.ba-news-slider {
+	position: relative;
+}
+
+.ba-news-slider .slick-dots {
+	position: absolute;
+	bottom: -422px;
+	right: 0;
+	left: 0;
+	transform: rotate(90deg);
+	color:#fff;
+	list-style-type: circle;
+
+	button {
+		display: none;
+	}
+}
+
+.ba-news-slider .slick-active {
+	list-style-type: disc;
+}

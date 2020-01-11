@@ -1,0 +1,58 @@
+.ba-intro {
+	background: #56B7FF url(../img/Bg.jpg) no-repeat 50%;
+	background-size: cover;
+}
+
+.ba-intro__inner{
+	padding: 370px 0 370px;
+	max-height: 100vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.ba-intro__title {
+	/* Style for "Simple & m" */
+color: #ffffff;
+font-family: Gotham;
+font-size: 80px;
+font-weight: 700;
+line-height: 22px;
+text-transform: uppercase;
+}
+.ba-intro__subtitle {
+	letter-spacing: 4px;
+
+}
+
+.ba-scroll {
+	position: absolute;
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: url(../img/Arrow.png);
+	margin: 0 auto;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+}
+.slick-dots {
+	position: absolute;
+	top: 40%;
+	right: 10px;
+	color:#fff;
+	list-style-type: circle;
+
+	button {
+		display: none;
+	}
+}
+
+.slick-active {
+	list-style-type: disc;
+}
